@@ -14,4 +14,4 @@ keywords = ["keyid", "agent", "email", "ed25519", "identity"]
 
 [project.urls]
 Homepage = "https://keyid.ai"
-Repository = "https://github.com/KeyID-AI/KeyID"
+Repository = "https://github.com/KeyID-AI/sdk-py"
