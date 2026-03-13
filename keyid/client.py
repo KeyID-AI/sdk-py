@@ -13,7 +13,8 @@ from urllib.parse import quote
 import httpx
 
 from .crypto import generate_keypair, sign
-from . import __version__
+
+__version__ = "0.1.2"
 
 
 class KeyID:

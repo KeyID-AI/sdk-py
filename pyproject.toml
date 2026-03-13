@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "keyid"
-version = "0.1.0"
+version = "0.1.2"
 description = "KeyID.ai SDK — agent email infrastructure"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
-dependencies = ["httpx>=0.25"]
+dependencies = ["httpx>=0.25", "cryptography>=41.0"]
 keywords = ["keyid", "agent", "email", "ed25519", "identity"]
 
 [project.urls]
